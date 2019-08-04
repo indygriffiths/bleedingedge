@@ -1925,16 +1925,16 @@
         },
         {
             "name": "silverstripe/crontask",
-            "version": "2.1.2",
+            "version": "2.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-crontask.git",
-                "reference": "bf24b11414daba48c96b1c94397bdab53ab97665"
+                "reference": "0fca365946af3f754a9842343df91b247934eb45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-crontask/zipball/bf24b11414daba48c96b1c94397bdab53ab97665",
-                "reference": "bf24b11414daba48c96b1c94397bdab53ab97665",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-crontask/zipball/0fca365946af3f754a9842343df91b247934eb45",
+                "reference": "0fca365946af3f754a9842343df91b247934eb45",
                 "shasum": ""
             },
             "require": {
@@ -1967,8 +1967,8 @@
                 },
                 {
                     "name": "Damian Mooyman",
-                    "email": "damian@silverstripe.com",
-                    "role": "Maintainer"
+                    "role": "Maintainer",
+                    "email": "damian@silverstripe.com"
                 }
             ],
             "description": "Module for running tasks with a standard cron timeschedule",
@@ -1976,7 +1976,7 @@
                 "cron",
                 "silverstripe"
             ],
-            "time": "2019-02-27T00:33:50+00:00"
+            "time": "2019-08-02T05:35:35+00:00"
         },
         {
             "name": "silverstripe/dynamodb",
