@@ -1540,12 +1540,12 @@
             "version": "3.2.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/silverstripe-themes/silverstripe-simple.git",
+                "url": "https://github.com/silverstripe/silverstripe-simple.git",
                 "reference": "5a6b34cd00a71047e905a8cb5d4b73713ca510c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe-themes/silverstripe-simple/zipball/5a6b34cd00a71047e905a8cb5d4b73713ca510c3",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-simple/zipball/5a6b34cd00a71047e905a8cb5d4b73713ca510c3",
                 "reference": "5a6b34cd00a71047e905a8cb5d4b73713ca510c3",
                 "shasum": ""
             },
@@ -2267,12 +2267,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/recipe-cms.git",
-                "reference": "2c16788d3070e63af3dec5653fefc7af8d7f1675"
+                "reference": "a3bad3b7b8aed2d514158fb41ea4af980a4e0963"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/recipe-cms/zipball/2c16788d3070e63af3dec5653fefc7af8d7f1675",
-                "reference": "2c16788d3070e63af3dec5653fefc7af8d7f1675",
+                "url": "https://api.github.com/repos/silverstripe/recipe-cms/zipball/a3bad3b7b8aed2d514158fb41ea4af980a4e0963",
+                "reference": "a3bad3b7b8aed2d514158fb41ea4af980a4e0963",
                 "shasum": ""
             },
             "require": {
@@ -2297,9 +2297,6 @@
                 "project-files": [
                     "app/src/*"
                 ],
-                "branch-alias": {
-                    "4.x-dev": "4.5.x-dev"
-                },
                 "resources-dir": "_resources"
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2308,7 +2305,7 @@
             ],
             "description": "SilverStripe recipe for fully featured page and asset content editing",
             "homepage": "http://silverstripe.org",
-            "time": "2019-06-07T02:33:54+00:00"
+            "time": "2019-11-18T02:07:41+00:00"
         },
         {
             "name": "silverstripe/recipe-core",
