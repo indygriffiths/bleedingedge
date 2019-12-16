@@ -1,45 +1,8 @@
 {
-    "name": "silverstripe/installer",
-    "type": "silverstripe-recipe",
-    "description": "The SilverStripe Framework Installer",
     "require": {
-        "silverstripe/recipe-plugin": "^1.2",
-        "silverstripe/recipe-cms": "^4",
-        "silverstripe-themes/simple": "~3.2.0",
-        "silverstripe/crontask": "^2.1",
-        "silverstripe/dynamodb": "^4.0"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^5.7",
-        "roave/security-advisories": "dev-master"
-    },
-    "extra": {
-        "branch-alias": {
-            "4.x-dev": "4.4.x-dev"
-        },
-        "resources-dir": "_resources",
-        "project-files-installed": [
-            "app/.htaccess",
-            "app/_config.php",
-            "app/_config/mysite.yml",
-            "app/src/Page.php",
-            "app/src/PageController.php"
-        ],
-        "public-files-installed": [
-            ".htaccess",
-            "index.php",
-            "install-frameworkmissing.html",
-            "install.php",
-            "web.config"
-        ],
-        "violinist": {
-            "timezone": "+1200",
-            "update_with_dependencies": 0
-        }
-    },
-    "config": {
-        "process-timeout": 600
-    },
-    "prefer-stable": true,
-    "minimum-stability": "dev"
+        "silverstripe/installer": "^3",
+        "silverstripe/crontask": "^1",
+        "silverstripe/dynamodb": "^3",
+        "silverstripe/secureassets": "dev-master"
+    }
 }
