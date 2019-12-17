@@ -3,3 +3,4 @@ php_settings:
 url_rules:
   mysite:
     - '^/foo': 'nginx'
+    - '^/bar': 'apache'
