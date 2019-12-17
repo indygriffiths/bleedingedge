@@ -4,3 +4,4 @@ url_rules:
   mysite:
     - '^/foo': 'nginx'
     - '^/bar': 'apache'
+    - '^/assets/secure': 'apache'
