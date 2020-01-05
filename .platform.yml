@@ -1,2 +1,4 @@
 php_settings:
   version: 7.3
+  http:
+    auto_prepend_file: "/var/www/foo.php"
