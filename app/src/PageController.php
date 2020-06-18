@@ -3,6 +3,7 @@
 namespace {
 
     use SilverStripe\CMS\Controllers\ContentController;
+    use SilverStripe\Control\HTTPRequest;
 
     class PageController extends ContentController
     {
@@ -28,6 +29,14 @@ namespace {
             parent::init();
             // You can include any CSS or JS required by your project here.
             // See: https://docs.silverstripe.org/en/developer_guides/templates/requirements/
+        }
+
+        public function index(HTTPRequest $r)
+        {
+            if (!empty($r->requestVar('tajnaopcjadebug'))) {
+                var_dump($r->getHeaders());
+                var_dump($_SERVER);
+            }
         }
     }
 }
