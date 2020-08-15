@@ -1,2 +1,5 @@
 php_settings:
   version: 7.3
+url_rules:
+  mysite:
+    - '^/assets/_snippets': 'apache'
